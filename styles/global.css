@@ -33,6 +33,7 @@ html{
 }
 
 body {
+    display: flex;
     height: 100vh; /* view height = toda altura que vemos no navegador */
     background: var(--background)
 }
@@ -86,8 +87,7 @@ button:hover, .button:hover{
     filter: brightness(1.2);
 }
 
-button > img
-.button > img{
+button > img .button > img{
     margin-right: 1rem;
     width: 2rem;
 }
